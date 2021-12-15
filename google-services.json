@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "637370439830",
+    "project_id": "uiet-e-lib",
+    "storage_bucket": "uiet-e-lib.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637370439830:android:e67ef83c83b64ca906cab7",
+        "android_client_info": {
+          "package_name": "com.akmadheshiya.uietelib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637370439830-pl28vpdls9jof0piok9omgisvvnr8b58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akmadheshiya.uietelib",
+            "certificate_hash": "df5ad7469d56c6ba638f5a952a422984a08c7fff"
+          }
+        },
+        {
+          "client_id": "637370439830-u6nt2lrrdnul97ugkl7skb5ge4vi35kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCylUZD_jV38c5KHscZ-xXSgzfk_enTIXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637370439830-u6nt2lrrdnul97ugkl7skb5ge4vi35kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

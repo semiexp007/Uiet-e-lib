@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center"
+    tools:context=".Login">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/last"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:background="#DAD5D5"
+        android:textColor="@color/black"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:hint="enter your email"
+        android:textColorHint="@color/black">
+
+    </EditText>
+    <EditText
+        android:padding="5dp"
+        android:background="#DAD5D5"
+        android:textColor="@color/black"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="enter your password"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColorHint="@color/black">
+
+    </EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:text="Log in"
+        >
+
+    </Button>
+
+    <TextView
+        android:textColor="@color/black"
+      android:layout_marginTop="20dp"
+        android:text="forgot password"
+        android:textAlignment="textEnd"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:id="@+id/ftgpassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </TextView>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:text="create a new acount"
+        android:textAlignment="textEnd"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </TextView>
+
+
+</LinearLayout>
